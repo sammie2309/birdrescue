@@ -1,0 +1,42 @@
+.footer-image {
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-color: #f3faf9;
+  text-align: center;
+  margin: 0px;
+}
+
+.footer-text {
+  width: 100%;
+  padding-top: 240px;
+  text-align: center;
+  color: white;
+  margin: 0px;
+}
+
+.footer-quote {
+  color: white;
+}
+
+@media screen and (max-width: 972px) and (min-width: 500px) {
+  .footer-image {
+    height: 400px;
+  }
+  .footer-text {
+    width: 100%;
+    padding-top: 100px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .footer-image {
+    height: 240px;
+    position: relative;
+  }
+  .footer-text {
+    text-align: center;
+    width: 100%;
+    padding: 40px 0 0 0;
+  }
+}
