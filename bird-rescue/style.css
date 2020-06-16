@@ -1,0 +1,11 @@
+/* Theme Name: Bird Rescue Theme */
+body .x-boxed-layout-active .entry-wrap {
+  border: none;
+}
+
+body .entry-wrap {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  padding: 0;
+}

@@ -1,0 +1,21 @@
+.wpcf7-submit {
+  border-radius: 8px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  background-color: #11998e;
+  color: white;
+}
+
+@media screen and (max-width: 500px) {
+  .contact-section {
+    text-align: center;
+  }
+
+  .contact-form {
+    margin-top: 24px;
+  }
+}

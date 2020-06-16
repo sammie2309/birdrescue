@@ -1,0 +1,115 @@
+.campaign-donation-page .page-wrap {
+  padding: 80px 0px;
+}
+
+.campaign-donation-page h2 {
+  color: #11998e;
+}
+
+.donate-button {
+  padding: 16px 32px;
+  border-radius: 8px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.campaign-summary {
+  text-align: center;
+}
+.campaign-donors span {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 32px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.campaign-summary .campaign-figures .amount {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 32px;
+  text-transform: uppercase;
+  text-align: center;
+}
+/* donation amount */
+.donation-amounts .donation-amount {
+  border-radius: 10px;
+  height: 40px;
+}
+
+/* FORM */
+.charitable-donation-form {
+  padding: 80px;
+}
+.charitable-submit-field {
+  text-align: center;
+}
+
+.charitable-form-fields .charitable-fieldset,
+.campaign-summary {
+  border: none;
+  box-shadow: 3px 4px 10px rgba(17, 153, 142, 0.1);
+  border-radius: 10px;
+  margin-bottom: 24px;
+}
+
+.charitable-form-header {
+  padding: 0 !important;
+}
+
+#charitable-donor-fields {
+  padding: 24px;
+}
+
+input,
+select {
+  height: 40px;
+  border: 1px gainsboro solid;
+  border-radius: 10px;
+  width: 100%;
+}
+
+textarea {
+  border: 1px gainsboro solid;
+  border-radius: 10px;
+  width: 100%;
+}
+#charitable-user-fields {
+  padding: 0px !important;
+}
+@media screen and (max-width: 972px) and (min-width: 500px) {
+  .campaign-donation-page .page-wrap {
+    padding: 40px 0px;
+  }
+  .campaign-donors span {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .campaign-summary .campaign-figures .amount {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  /* FORM */
+  .charitable-donation-form {
+    padding: 40px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .campaign-donation-page .page-wrap {
+    padding: 24px 0px;
+  }
+
+  /* FORM */
+  .charitable-donation-form {
+    padding: 24px;
+  }
+}

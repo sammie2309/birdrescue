@@ -1,0 +1,141 @@
+h1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48.83px;
+  line-height: 64px;
+  /* or 131% */
+
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 39.06px;
+  line-height: 48px;
+  /* identical to box height, or 123% */
+
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 56px;
+  color: #11998e;
+}
+
+h3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 32px;
+  /* identical to box height, or 128% */
+  color: #11998e;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  color: #073f3a;
+  margin: 0;
+}
+
+@media screen and (max-width: 972px) and (min-width: 500px) {
+  h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48.83px;
+    line-height: 64px;
+    /* or 131% */
+
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 31.25px;
+    line-height: 40px;
+    /* identical to box height, or 128% */
+    margin-bottom: 40px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    text-transform: uppercase;
+  }
+
+  p {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #073f3a;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 31.25px;
+    line-height: 40px;
+    /* or 128% */
+
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 32px;
+    /* identical to box height, or 128% */
+    margin-bottom: 24px;
+    text-transform: uppercase;
+  }
+
+  h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    text-transform: uppercase;
+  }
+
+  p {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12.08px;
+    line-height: 16px;
+    margin: 0;
+  }
+}
